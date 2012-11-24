@@ -1,0 +1,50 @@
+/*
+   OCS Stuff
+*/
+.info-area {
+float:right;
+max-width:300px;
+padding-left:10px;
+text-align:left;
+}
+
+#main table.ocs img {
+padding:1px!important;
+margin:0;
+}
+
+#main table.ocs {
+border:none!important;
+}
+
+.ocs-hackergotchi img {
+height:32px!important;
+width:32px!important;
+}
+
+.ocs-applicationshot {
+padding:10px 0 10px 10px!important;
+}
+
+.ocs-latestapp {
+padding:10px!important;
+}
+
+.ocs-content,.ocs-linksbar,.ocs-latestapp {
+vertical-align:middle;
+text-align:left;
+}
+
+.ocs-title {
+font-weight:700;
+padding-right:10px;
+}
+
+.ocs-linksbar {
+text-align:right!important;
+min-width:25px;
+}
+
+.ocs-linksbar img {
+margin:0 2px 2px!important;
+}
