@@ -603,9 +603,7 @@ class ChihuahuaTemplate extends QuickTemplate {
 <!-- Open Hatch -->
 <li>
 <form method="POST" action="http://openhatch.org/+do/project.views.wanna_help_do">
-    <input type="hidden" name="from_offsite" value="True" />
-    <input type="hidden" value="9591" name="project"/>
-    <input type="submit" style="width: 173px;" value="Voglio aiutare!" rel="tipsy-south" id="openhatch-wannahelp-button" original-title="Fai clic qui per aggiungerti alla lista delle persone che vogliono contribuire. Sono benvenute persone con ogni livello di conoscenza." /> 
+    <input type="submit" style="width: 173px;" value="Voglio aiutare!" rel="tipsy-south" id="openhatch-wannahelp-button" original-title="Fai click qui per contribuire alla realizzazione di WikiFM. Aiuti di ogni forma sono graditi : )" /> 
 </form>
 <style>
     @import url('//openhatch.org/static/css/tipsy.css');
@@ -617,7 +615,7 @@ class ChihuahuaTemplate extends QuickTemplate {
 #openhatch-wannahelp-button:focus { outline-color:-moz-use-text-color; outline-style:none; outline-width:medium; }
 </style>
 </li>
-
+<!-- Open Hatch END -->
                      <?php if ( $this->data['copyrightico'] ): ?>
 <!--                         <li id="footer-icon-copyrightico"><?php $this->html( 'copyrightico' ) ?></li> -->
                      <?php endif; ?>
