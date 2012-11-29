@@ -602,8 +602,8 @@ class ChihuahuaTemplate extends QuickTemplate {
 
 <!-- Open Hatch -->
 <li>
-<form method="POST" action="http://openhatch.org/+do/project.views.wanna_help_do">
-    <input type="submit" style="width: 173px;" value="Voglio aiutare!" rel="tipsy-south" id="openhatch-wannahelp-button" original-title="Fai click qui per contribuire alla realizzazione di WikiFM. Aiuti di ogni forma sono graditi : )" /> 
+<form method="POST" action="https://www.wikifm.org/index.php/Aiuto:Come_aiutare">
+    <input type="submit" style="width: 173px;" value="Voglio aiutare!" rel="tipsy-south" id="openhatch-wannahelp-button" original-title="Fai click qui per contribuire alla realizzazione di WikiFM. Qualsiasi aiuto è benvenuto." /> 
 </form>
 <style>
     @import url('//openhatch.org/static/css/tipsy.css');
