@@ -1,0 +1,18 @@
+/**
+  * Add a wiki2latex stylesheet to controll the CSS of some elements.
+  * 
+  * Author: Alberto Giudici
+  * Date: 17.01.2013
+  */
+
+/*w2llatexform page*/
+form#w2lFmFormer{ 
+margin:2%;
+background: rgb(220, 246, 177);
+padding:1%;
+}
+
+/*onpdf page*/
+textarea.w2lLogOutput{
+width: 100%; /*Avoid collapse of textarea*/
+}

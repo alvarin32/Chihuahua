@@ -863,6 +863,13 @@ table.teaser { width: 100%; text-align: center; }
 <?php
   include "wrapper.css";
   include "ocs.css";
+/**
+  * Add a wiki2latex stylesheet to controll the CSS of some elements.
+  * 
+  * Author: Alberto Giudici
+  * Date: 17.01.2013
+  */
+  include "wiki2latex.css"; 
 ?>
 
 
