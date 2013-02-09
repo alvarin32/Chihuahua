@@ -187,13 +187,13 @@ class SkinChihuahua extends SkinTemplate {
          // Checks if the page exists
          if ( $this->getSkin()->getTitle()->exists() ) {
 	    // Adds history view link
-//             $links['views']['history'] = array(
-//                'class' => 'collapsible ' . ( ($action == 'history') ? 'selected' : false ),
-//                'text' => wfMsg( 'vector-view-history' ),
-//                'href' => $this->getSkin()->getTitle()->getLocalUrl( 'action=history' ),
-//                'rel' => 'archives',
-//                'img' => 'history.png',
-//             );
+					$links['views']['history'] = array(
+					'class' => 'collapsible ' . ( ($action == 'history') ? 'selected' : false ),
+					'text' => wfMsg( 'vector-view-history' ),
+					'href' => $this->getSkin()->getTitle()->getLocalUrl( 'action=history' ),
+					'rel' => 'archives',
+					'img' => 'history.png',
+             );
 	}
 
          if ( $this->getSkin()->getTitle()->exists() ) {
